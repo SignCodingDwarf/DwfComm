@@ -1,0 +1,84 @@
+\hypertarget{common__defines_8h}{\section{include/common\-\_\-defines.h \-File \-Reference}
+\label{common__defines_8h}\index{include/common\-\_\-defines.\-h@{include/common\-\_\-defines.\-h}}
+}
+
+
+\-Common \-Macros \-Definition.  
+
+
+\subsection*{\-Defines}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{common__defines_8h_a6206643937f98c4b644e4adcd5dc3af5}{\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S}~0
+\begin{DoxyCompactList}\small\item\em \-Execution of a function succeeded. \end{DoxyCompactList}\item 
+\#define \hyperlink{common__defines_8h_ad5de0b49d210d37ff5d7fbba5b298f5c}{\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E}~1
+\begin{DoxyCompactList}\small\item\em \-Execution of a function failed. \end{DoxyCompactList}\item 
+\#define \hyperlink{common__defines_8h_ad72dbcf6d0153db1b8d8a58001feed83}{\-D\-E\-B\-U\-G}~1
+\begin{DoxyCompactList}\small\item\em \-Preprocessor to enable debug output. \end{DoxyCompactList}\item 
+\#define \hyperlink{common__defines_8h_a68eda9a36b4ece66123b627ce7640d30}{\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S}~1
+\begin{DoxyCompactList}\small\item\em \-Check if shared pointers can be used. \end{DoxyCompactList}\item 
+\#define \hyperlink{common__defines_8h_a289f6bf30919eb53d0dc5f9851aa71d3}{\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S}~1
+\begin{DoxyCompactList}\small\item\em \-Check if auto loops can be used. \end{DoxyCompactList}\item 
+\#define \hyperlink{common__defines_8h_a6027a1ab91913f99cdc151eb937ae5e5}{\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S}~1
+\begin{DoxyCompactList}\small\item\em \-Check if lambda functions can be used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Detailed \-Description}
+\-Common \-Macros \-Definition. \begin{DoxyAuthor}{\-Author}
+\-Sign \-Coding \-Dwarf 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{\-Version}
+1.\-2 
+\end{DoxyVersion}
+\begin{DoxyDate}{\-Date}
+10 \-October 2016
+\end{DoxyDate}
+\-Definition of macros common to all designed applications 
+
+\subsection{\-Define \-Documentation}
+\hypertarget{common__defines_8h_ad72dbcf6d0153db1b8d8a58001feed83}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-D\-E\-B\-U\-G@{\-D\-E\-B\-U\-G}}
+\index{\-D\-E\-B\-U\-G@{\-D\-E\-B\-U\-G}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-D\-E\-B\-U\-G}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-D\-E\-B\-U\-G}~1}}\label{common__defines_8h_ad72dbcf6d0153db1b8d8a58001feed83}
+
+
+\-Preprocessor to enable debug output. 
+
+\-D\-E\-B\-U\-G is used to perform debug mode specific operations. \-Set to 1 (default value) to enable and to 0 to disable. \-Change value in {\itshape \hyperlink{common__defines_8h}{common\-\_\-defines.\-h}\/} or as compiling preprocessor flag (recommended) \-: {\itshape -\/\-D\-D\-E\-B\-U\-G=0\/} \par
+ \-This macro can be complemented/replaced by \-N\-D\-E\-B\-U\-G macro if needed \hypertarget{common__defines_8h_ad5de0b49d210d37ff5d7fbba5b298f5c}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E@{\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E}}
+\index{\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E@{\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-E\-X\-E\-C\-\_\-\-F\-A\-I\-L\-U\-R\-E}~1}}\label{common__defines_8h_ad5de0b49d210d37ff5d7fbba5b298f5c}
+
+
+\-Execution of a function failed. 
+
+\hypertarget{common__defines_8h_a6206643937f98c4b644e4adcd5dc3af5}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S@{\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S}}
+\index{\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S@{\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-E\-X\-E\-C\-\_\-\-S\-U\-C\-C\-E\-S\-S}~0}}\label{common__defines_8h_a6206643937f98c4b644e4adcd5dc3af5}
+
+
+\-Execution of a function succeeded. 
+
+\hypertarget{common__defines_8h_a289f6bf30919eb53d0dc5f9851aa71d3}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S@{\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S}}
+\index{\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S@{\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S}~1}}\label{common__defines_8h_a289f6bf30919eb53d0dc5f9851aa71d3}
+
+
+\-Check if auto loops can be used. 
+
+\-Checking if auto loops (i.\-e. range based syntax and auto keyword in loops) is allowed is done with \#if \-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S. \-By default this choice is determined by compiler support of \-C++11. \-However a different choice can be specified using compiling preprocessor flag \-: \par
+ {\itshape -\/\-D\-U\-S\-E\-\_\-\-A\-U\-T\-O\-\_\-\-L\-O\-O\-P\-S=$<$value$>$\/} \hypertarget{common__defines_8h_a6027a1ab91913f99cdc151eb937ae5e5}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S@{\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S}}
+\index{\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S@{\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S}~1}}\label{common__defines_8h_a6027a1ab91913f99cdc151eb937ae5e5}
+
+
+\-Check if lambda functions can be used. 
+
+\-Checking if lambda functions (i.\-e. anonymous inline functions) is allowed is done with \#if \-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S. \-By default this choice is determined by compiler support of \-C++11. \-However a different choice can be specified using compiling preprocessor flag \-: \par
+ {\itshape -\/\-D\-U\-S\-E\-\_\-\-L\-A\-M\-B\-D\-A\-\_\-\-F\-U\-N\-C\-T\-I\-O\-N\-S=$<$value$>$\/} \hypertarget{common__defines_8h_a68eda9a36b4ece66123b627ce7640d30}{\index{common\-\_\-defines.\-h@{common\-\_\-defines.\-h}!\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S@{\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S}}
+\index{\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S@{\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S}!common_defines.h@{common\-\_\-defines.\-h}}
+\subsubsection[{\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define {\bf \-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S}~1}}\label{common__defines_8h_a68eda9a36b4ece66123b627ce7640d30}
+
+
+\-Check if shared pointers can be used. 
+
+\-Checking if shared pointers use is allowed is done with \#if \-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S. \-By default this choice is determined by compiler support of \-C++11. \-However a different choice can be specified using compiling preprocessor flag \-: {\itshape -\/\-D\-U\-S\-E\-\_\-\-S\-H\-A\-R\-E\-D\-\_\-\-P\-O\-I\-N\-T\-E\-R\-S=$<$value$>$\/} 
